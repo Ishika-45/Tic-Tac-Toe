@@ -1,0 +1,100 @@
+*{
+    background-color:rgb(137, 30, 238);
+    text-align: center;
+}
+
+
+h1{
+    text-align: center;
+    font-style: italic;
+    color: #E26EE5;
+    font: 4em Bodoni MT Poster Compressed;
+    text-shadow: 0 0.5rem rgba(0,0,0,0.3);
+    
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color:rgb(6, 246, 246); */
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    /* background-color: rgb(108, 223, 185); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: rgb(174, 174, 223);
+    color: rgb(232, 69, 69);
+    border-radius: 0.5rem;
+    font-size:8vmin;
+    gap:10px;
+    box-shadow: inset 0 0 1rem rgba(0,0,0,0.5);
+}
+.reset{
+    margin-top: 2rem;
+    border: none;
+    font: 1.5em sans-serif;
+    background-color: rgb(158, 240, 240);
+    color: rgb(255, 0, 0);
+    transition: all ease-in 0.2s;
+    
+    
+}
+.reset:hover{
+    border-radius: 0.8rem;
+    border: none;
+    background-color: black;
+    color: bisque;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+}
+
+.newbtn{
+    width: 25vmin;
+    border: none;
+    font: 1.5em algerian;
+    background-color: black;
+    color: bisque;
+    /* margin-top: 10rem;
+    margin-bottom: 20rem; */
+}
+
+.newbtn:hover{
+    border-radius: 0.7rem;
+    background-color: aquamarine;
+    color: red;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+}
+
+#msg{
+    font-size:5vmin;
+    color:#FFD1E3;
+    font: 2rem Arial Black;
+    text-shadow: 0 0.5rem rgba(0,0,0,0.3);
+}
+
+.msgcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vmin;
+}
+
+.hide{
+    display: none;
+}
